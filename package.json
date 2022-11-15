@@ -1,0 +1,23 @@
+{
+  "name": "quick-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --history-api-fallback --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "front-orm": "git+https://github.com/bd2051/front-orm.git",
+    "melanke-watchjs": "^1.5.2",
+    "watch-object": "^1.1.2",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
